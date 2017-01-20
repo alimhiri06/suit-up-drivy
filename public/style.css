@@ -33,15 +33,14 @@ h1{
 }
 
 #car{
-    padding: 30px;
     text-align: center;
+    /*padding: 30px;*/
 }
 
 .model{
   border-color: #800080;
   margin-top: 30px;
   margin-bottom: 30px;
-  text-align: center;
   /*background-color: transparent;*/
 }
 
@@ -53,7 +52,14 @@ h1{
 #rental{
   text-align: center;
 }
+/*
+.price-by-day
+{
+  border-color: black;
+  background-color:transparent;
 
+}
+*/
 .button{
   text-align: center;
   margin-top: 270px;
