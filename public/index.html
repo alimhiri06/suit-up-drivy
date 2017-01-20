@@ -2,8 +2,10 @@
 <html>
   <head>
     <title>CSS/HTML Workshop with Drivy</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
+    <h1>Louez votre voiture pour pas cher !</h1>
     <div id="car">
       <input class="model" type="text" placeholder="Car model"/>
       <input class="price-by-day" type="number" placeholder="Price by day"/>
@@ -15,7 +17,9 @@
       <input class="distance" type="number" placeholder="Distance in km"/>
       <input class="option" type="checkbox" placeholder="Deductible option"/>
     </div>
-    <button id="compute">Compute</button>
+    <div class="button">
+      <button id="compute">Compute</button>
+    </div>
     <div id="actors"></div>
     <script id="template" type="x-tmpl-mustache">
       {{#actors}}

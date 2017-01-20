@@ -1,0 +1,75 @@
+body{
+  background-image: url(image8.jpg);
+  background-repeat: no-repeat;
+}
+h1{
+  text-align: center;
+  color: #800000;
+  font-style: italic;
+}
+
+/*
+#rental{}
+.model{}
+#rental.begin{}
+*/
+
+#car input{
+  diplay block;
+  padding: 12px;
+
+  text-align: center;
+}
+/*
+.price-by-day{
+  margin-bottom: 10px;
+}
+
+.model{
+  text-align: center;
+}
+*/
+
+}
+
+#car{
+    padding: 30px;
+    text-align: center;
+}
+
+.model{
+  border-color: #800080;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  /*background-color: transparent;*/
+}
+
+#car .price-by-day{
+  margin-bottom: 30px;
+  margin-top: 100px;
+}
+
+#rental{
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+  margin-top: 270px;
+}
+
+#compute{
+  width: 25%;
+  background-color: #800000;   /* Couleur de fond */
+  border-style: solid;   /* Style de la bordure  */
+  border-width: 3px;   /* Epaisseur de la bordure  */
+  border-color: #800080;   /* Couleur de la bordure  */
+  padding: 5px 10px 5px 10px;   /* Espace entre les bords et le contenu : haut droite bas gauche  */
+  width: 35.5%;   /* Permet d'ajuster la largeur du bouton à 100% */
+  box-sizing: border-box;   /* Important */
+  font-family: PT sans;   /* Police du texte */
+  font-size: 13px;   /* Taille de la police du texte */
+  font-weight: normal;   /* Graisse du texte : normal = normal ; bold = gras */
+  letter-spacing: 2px;   /* Espacement des caractères */
+}
